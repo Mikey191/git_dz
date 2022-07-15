@@ -6,6 +6,11 @@ int Sum(int &a, int &b) {
 	return sum;
 }
 
+double SumD(double& a, double& b) {
+	double sum = a + b;
+	return sum;
+}
+
 
 int main() {
 	int a, b;
@@ -13,5 +18,11 @@ int main() {
 	cin >> a;
 	cin >> b;
 	cout << "Summ a + b = " << Sum(a,b) << endl;
+
+	double q, e;
+	cout << "Enter 2 double elem: ";
+	cin >> q;
+	cin >> e;
+	cout << "Sum q + e = " << SumD(q, e) << endl;
 	return 0;
 }
