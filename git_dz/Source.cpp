@@ -13,6 +13,8 @@ double SumD(double& a, double& b) {
 
 
 int main() {
+	cout << "\tDirector by : \n\tMikey191\n\n";
+
 	int a, b;
 	cout << "Enter 2 elements: ";
 	cin >> a;
